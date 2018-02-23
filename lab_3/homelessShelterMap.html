@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_4f10d0b57cde43d4bdde4d4527014f09 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_4f10d0b57cde43d4bdde4d4527014f09" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_4f10d0b57cde43d4bdde4d4527014f09 = L.map(
+                                  'map_4f10d0b57cde43d4bdde4d4527014f09',
+                                  {center: [47.4873376,-121.8622122],
+                                  zoom: 10.0,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_14f8495e6a9445b6911c864466916176 = L.tileLayer(
+                'https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png',
+                {
+  "attribution": null, 
+  "detectRetina": false, 
+  "maxZoom": 18, 
+  "minZoom": 1, 
+  "noWrap": false, 
+  "subdomains": "abc"
+}
+                ).addTo(map_4f10d0b57cde43d4bdde4d4527014f09);
+        
+    
+
+            
+
+                var geo_json_f860a931d75849ebb60075a367c70d70 = L.geoJson(
+                    {"features": [{"geometry": {"coordinates": [47.6011886, -122.30156565], "type": "Point"}, "id": "0", "properties": {"address": "100 23rd Ave. S., Seattle, WA 98144", "highlight": {}, "lat": 47.6011886, "long": -122.30156565, "name": "Catholic Community Services - Seattle", "style": {}}, "type": "Feature"}, {"geometry": {"coordinates": [47.3007686442953, -122.318042154362], "type": "Point"}, "id": "1", "properties": {"address": "1200 S. 336th St., Federal Way, WA 98003", "highlight": {}, "lat": 47.3007686442953, "long": -122.318042154362, "name": "Multi-Service Center- Federal Way", "style": {}}, "type": "Feature"}, {"geometry": {"coordinates": [47.4814093, -122.203563458549], "type": "Point"}, "id": "2", "properties": {"address": "1010 S. 2nd St., Renton, WA 98057", "highlight": {}, "lat": 47.4814093, "long": -122.203563458549, "name": "YWCA- Renton", "style": {}}, "type": "Feature"}, {"geometry": {"coordinates": [47.69870805, -122.332551801326], "type": "Point"}, "id": "3", "properties": {"address": "9600 College Way N. Seattle, WA 98103", "highlight": {}, "lat": 47.69870805, "long": -122.332551801326, "name": "Solid Ground - North Seattle", "style": {}}, "type": "Feature"}, {"geometry": {"coordinates": [47.5841884, -122.301253], "type": "Point"}, "id": "4", "properties": {"address": "2100 24th Ave S, Seattle, WA 98144", "highlight": {}, "lat": 47.5841884, "long": -122.301253, "name": "YMCA Young Adult Services Drop in Center", "style": {}}, "type": "Feature"}, {"geometry": {"coordinates": [47.6182332, -122.3303895], "type": "Point"}, "id": "5", "properties": {"address": "1828 Yale Avenue, Seattle, WA 98101", "highlight": {}, "lat": 47.6182332, "long": -122.3303895, "name": "YouthCare\u2019s James W. Ray Orion Center", "style": {}}, "type": "Feature"}, {"geometry": {"coordinates": [47.6155844, -122.3077338], "type": "Point"}, "id": "6", "properties": {"address": "1609 19th Avenue, Seattle, WA 98122", "highlight": {}, "lat": 47.6155844, "long": -122.3077338, "name": "Peace for the Streets by Kids from the Streets (PSKS)", "style": {}}, "type": "Feature"}, {"geometry": {"coordinates": [47.2995776464646, -122.218837787879], "type": "Point"}, "id": "7", "properties": {"address": "915 H Street SE, Auburn, WA 98002", "highlight": {}, "lat": 47.2995776464646, "long": -122.218837787879, "name": "Nexus Youth & Families", "style": {}}, "type": "Feature"}, {"geometry": {"coordinates": [47.66432385, -122.31273440028], "type": "Point"}, "id": "8", "properties": {"address": "4740 B University Way NE,\u00a0Seattle, WA 98105", "highlight": {}, "lat": 47.66432385, "long": -122.31273440028, "name": "Teen Feed", "style": {}}, "type": "Feature"}, {"geometry": {"coordinates": [47.66185935, -122.311670474999], "type": "Point"}, "id": "9", "properties": {"address": "4516 15th Avenue NE, Seattle, WA 98105", "highlight": {}, "lat": 47.66185935, "long": -122.311670474999, "name": "University District Youth Center", "style": {}}, "type": "Feature"}, {"geometry": {"coordinates": [47.6114129, -122.192249916315], "type": "Point"}, "id": "10", "properties": {"address": "11061 N.E. 2nd St. Bellevue, WA\u00a098004", "highlight": {}, "lat": 47.6114129, "long": -122.192249916315, "name": "Catholic Community Services - Bellevue", "style": {}}, "type": "Feature"}, {"geometry": {"coordinates": [47.6758031, -122.18098627459], "type": "Point"}, "id": "11", "properties": {"address": "11920 N.E. 80th St.Kirkland, WA 98033", "highlight": {}, "lat": 47.6758031, "long": -122.18098627459, "name": "New Bethlehem Day Center Kirkland", "style": {}}, "type": "Feature"}, {"geometry": {"coordinates": [47.6171479, -122.349536087159], "type": "Point"}, "id": "12", "properties": {"address": "2709 Third Avenue, Seattle, WA 98121", "highlight": {}, "lat": 47.6171479, "long": -122.349536087159, "name": "New Horizons", "style": {}}, "type": "Feature"}, {"geometry": {"coordinates": [47.6797058163265, -122.122910653061], "type": "Point"}, "id": "13", "properties": {"address": "16225 NE 87th Street, #1, Redmond, WA 98052", "highlight": {}, "lat": 47.6797058163265, "long": -122.122910653061, "name": "Friends of Youth Redmond", "style": {}}, "type": "Feature"}, {"geometry": {"coordinates": [47.4810182, -122.2109979], "type": "Point"}, "id": "14", "properties": {"address": "419 S 2nd Street, Suite 2, Renton, WA 98057", "highlight": {}, "lat": 47.4810182, "long": -122.2109979, "name": "VA Puget Sound Community Outreach and Housing Services (CHOS) Renton Walk-in Clinic", "style": {}}, "type": "Feature"}], "type": "FeatureCollection"}
+                    
+                    ).addTo(map_4f10d0b57cde43d4bdde4d4527014f09);
+                geo_json_f860a931d75849ebb60075a367c70d70.setStyle(function(feature) {return feature.properties.style;});
+
+            
+</script>
