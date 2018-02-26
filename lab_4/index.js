@@ -18,8 +18,7 @@
         map = new mapboxgl.Map({
             container: 'map',
             style: mapStyles.basic,
-            //style: myStyle,
-            center: [-122.3321, 47.5],
+            center: [-122.3321, 47.5], //centered on King County
             zoom: 9
         });
         
@@ -29,9 +28,6 @@
         for (var i=0; i < inputs.length; i++){
             inputs[i].onclick = switchLayer;
         }
-        
-        //Call loadlayer to load map layers
-        //loadLayer();
     };
     
     /**
@@ -43,31 +39,4 @@
         var layerId = layer.target.id;
         map.setStyle(mapStyles[layerId]);
     }
-    
-    /**
-     * Loads the current map style and adds the homeless data as a layer.
-     */
-    // function loadLayer(){
-    //     map.on("load", function() { //ensures map loads before adding layers
-    //         map.addSource("homeless_data3", { //add homeless data source
-    //           "type": "geojson", //reads it in as a geojson file
-    //           "data": "./homeless_data3.geojson"
-    //         });
-            
-    //         //Add the homeless data as a symbol layer
-    //         map.addLayer({
-    //             "id": "homelessSymbol",
-    //             "type": 'symbol',
-    //             "source": 'homeless_data3',
-    //             "maxzoom": 15,
-    //             "layout": {
-    //                 //"icon-image": "{icon}-15",
-    //                 "text-field": "{name}",
-    //                 "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
-    //                 "text-offset": [0, 0.6],
-    //                 "text-anchor": "top"
-    //             }
-    //         });
-    //     });
-    // }
 })();
